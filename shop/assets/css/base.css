@@ -207,3 +207,41 @@ html {
 :hover {
     color: var(--primary-color);
 }
+
+/* pagination */
+
+.pagination {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+}
+
+.pagination-item {
+    margin: 0 12px;
+}
+
+.pagination-item--active .pagination-item__link {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.pagination-item--active .pagination-item__link:hover {
+    background-color: #ed5c3f;
+}
+
+.pagination-item__link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 2px;
+    font-weight: 300;
+
+}
+
+.paginnation-item__icon {}
